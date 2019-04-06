@@ -58,8 +58,8 @@ li a {
 }
 
 li:hover {
-    background-color: #4aaaa5;
     color: white;
+    background-color: #4aaaa5;
     cursor: arrow;
 }
 
@@ -77,6 +77,8 @@ p {
 img {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .me {
@@ -90,12 +92,20 @@ img {
 
 footer {
     width: 100%;
-    color:  white;
     background-color: #666666;
     text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     height: 50px;
+    line-height:50px;
+    position: fixed;
+    bottom: 0;
     border-top: 10px solid #4aaaa5;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input[type=text] {
@@ -116,4 +126,94 @@ input[type=button] {
     cursor: pointer;
     border: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    float: left;
+}
+
+.top-left {
+    position: absolute;
+    line-height: 40px;
+    color: white;
+    height: 40px;
+    width: 400px;
+    background-color: #4aaaa5;
+    top: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.container2 {
+    position: relative;
+    float: right;
+}
+
+.top-right {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    width: 400px;
+    background-color: #4aaaa5;
+    top: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.container3 {
+    position: relative;
+    float: left;
+}
+
+.middle-left {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    width: 400px;
+    background-color: #4aaaa5;
+    top: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.container4 {
+    position: relative;
+    float: right;
+    margin-left: -40px;
+}
+
+.middle-right {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    width: 400px;
+    background-color: #4aaaa5;
+    top: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.container5 {
+    position: relative;
+    float: left;
+}
+
+.bottom {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    width: 400px;
+    background-color: #4aaaa5;
+    top: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.clear {
+    clear: both;
 }

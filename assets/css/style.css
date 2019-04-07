@@ -91,6 +91,10 @@ img {
     padding-left: 25px;
 }
 
+.clearfix {
+    overflow: auto;
+  }
+
 footer {
     width: 100%;
     background-color: #666666;

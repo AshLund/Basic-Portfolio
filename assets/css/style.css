@@ -66,6 +66,7 @@ li:hover {
 h2 {
     color: #4aaaa5;
     padding: 5px;
+    padding-top: 15px;
 }
 
 p {
@@ -116,7 +117,11 @@ input[type=text] {
 }
 
 #message {
-    padding: 30px 80px;
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 input[type=button] {
@@ -127,6 +132,13 @@ input[type=button] {
     border: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+input[type=button]:hover {
+    color: #4aaaa5;
+    background-color: white;
+    cursor: arrow;
+}
+
 
 .container {
     position: relative;
@@ -140,7 +152,7 @@ input[type=button] {
     height: 40px;
     width: 300px;
     background-color: #4aaaa5;
-    top: 55px;
+    top: 80px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -158,7 +170,7 @@ input[type=button] {
     height: 40px;
     width: 300px;
     background-color: #4aaaa5;
-    top: 55px;
+    top: 80px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -175,7 +187,7 @@ input[type=button] {
     height: 40px;
     width: 300px;
     background-color: #4aaaa5;
-    top: 55px;
+    top: 80px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -193,7 +205,7 @@ input[type=button] {
     height: 40px;
     width: 300px;
     background-color: #4aaaa5;
-    top: 55px;
+    top: 80px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -211,7 +223,7 @@ input[type=button] {
     height: 40px;
     width: 300px;
     background-color: #4aaaa5;
-    top: 55px;
+    top: 80px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }

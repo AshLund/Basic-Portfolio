@@ -138,9 +138,9 @@ input[type=button] {
     line-height: 40px;
     color: white;
     height: 40px;
-    width: 400px;
+    width: 300px;
     background-color: #4aaaa5;
-    top: 150px;
+    top: 55px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -148,6 +148,7 @@ input[type=button] {
 .container2 {
     position: relative;
     float: right;
+    width: 575px;
 }
 
 .top-right {
@@ -155,9 +156,9 @@ input[type=button] {
     color: white;
     line-height: 40px;
     height: 40px;
-    width: 400px;
+    width: 300px;
     background-color: #4aaaa5;
-    top: 150px;
+    top: 55px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -172,9 +173,9 @@ input[type=button] {
     color: white;
     line-height: 40px;
     height: 40px;
-    width: 400px;
+    width: 300px;
     background-color: #4aaaa5;
-    top: 150px;
+    top: 55px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -182,7 +183,7 @@ input[type=button] {
 .container4 {
     position: relative;
     float: right;
-    margin-left: -40px;
+    width: 575px;
 }
 
 .middle-right {
@@ -190,9 +191,9 @@ input[type=button] {
     color: white;
     line-height: 40px;
     height: 40px;
-    width: 400px;
+    width: 300px;
     background-color: #4aaaa5;
-    top: 150px;
+    top: 55px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
@@ -200,6 +201,7 @@ input[type=button] {
 .container5 {
     position: relative;
     float: left;
+    width: 315px;
 }
 
 .bottom {
@@ -207,9 +209,9 @@ input[type=button] {
     color: white;
     line-height: 40px;
     height: 40px;
-    width: 400px;
+    width: 300px;
     background-color: #4aaaa5;
-    top: 150px;
+    top: 55px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
